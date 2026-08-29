@@ -24,7 +24,7 @@
       var cust = (cfg.customers || {})[slug];
       if (!cust) { reveal(); return; }           // unknown slug -> default look
       var c = Object.assign({}, def, cust);      // customer wins; gaps -> default
-      try { applyTheme(c); applyText(c, def); applyLinks(c); applyMeta(c); } catch (e) {}
+      try { applyTheme(c); applyText(c, def); applyLinks(c); applyMeta(c); persist(slug); } catch (e) {}
       reveal();
     })
     .catch(reveal);
@@ -132,6 +132,22 @@
   function toggleLink(a, url) {
     if (url) { a.setAttribute('href', url); a.style.display = ''; }
     else { a.style.display = 'none'; }   // hide socials the customer doesn't have
+  }
+
+  /* ---------- keep ?c= across internal navigation ---------- */
+  function persist(slug) {
+    document.querySelectorAll('a[href]').forEach(function (a) {
+      var raw = a.getAttribute('href');
+      if (!raw) return;
+      if (raw.charAt(0) === '#') return;                       // same-page anchor
+      if (/^(mailto:|tel:|javascript:)/i.test(raw)) return;    // not navigations
+      if (raw.indexOf('wa.me') !== -1) return;                 // WhatsApp deep link
+      var u;
+      try { u = new URL(raw, location.href); } catch (e) { return; }
+      if (u.origin !== location.origin) return;                // external site
+      u.searchParams.set('c', slug);
+      a.setAttribute('href', u.pathname + u.search + u.hash);
+    });
   }
 
   /* ---------- title / meta ---------- */

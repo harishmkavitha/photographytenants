@@ -1,5 +1,17 @@
 {
-  "_default": {},
+  "_default": {
+    "name": "Halo & Grain",
+    "phone": "+91 98765 43210",
+    "whatsapp": "919876543210",
+    "email": "hello@haloandgrain.example",
+    "address": "No. 21, 2nd Avenue, Besant Nagar, Chennai, Tamil Nadu 600090",
+    "city": "Chennai",
+    "instagram": "https://www.instagram.com/",
+    "youtube": "https://www.youtube.com/",
+    "colorPrimary": "#D9B26A",
+    "colorInk": "#14110E",
+    "font": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+  },
   "customers": {
     "green-lens-studio": {
       "name": "Green Lens Studio",

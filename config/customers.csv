@@ -1,0 +1,4 @@
+slug,name,phone,whatsapp,email,address,city,instagram,youtube,facebook,colorPrimary,colorInk,font,googleFont
+"_default","Halo & Grain","+91 98765 43210","919876543210","hello@haloandgrain.example","No. 21, 2nd Avenue, Besant Nagar, Chennai, Tamil Nadu 600090","Chennai","https://www.instagram.com/","https://www.youtube.com/","","#D9B26A","#14110E","'Helvetica Neue', Helvetica, Arial, sans-serif",""
+"sunrise-studio","Sunrise Studio","+91 90000 11111","919000011111","hello@sunrisestudio.example","12 Race Course Road, Coimbatore, Tamil Nadu 641018","Coimbatore","https://www.instagram.com/","https://www.youtube.com/","","#E0873C","#161210","'Helvetica Neue', Helvetica, Arial, sans-serif",""
+"azure-films","Azure Films","+91 90000 22222","919000022222","studio@azurefilms.example","5 Church Street, Bengaluru, Karnataka 560001","Bengaluru","https://www.instagram.com/","https://www.youtube.com/","","#5B8CB0","#0F1417","'Helvetica Neue', Helvetica, Arial, sans-serif",""

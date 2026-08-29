@@ -1,0 +1,43 @@
+{
+  "_default": {
+    "name": "Halo & Grain",
+    "phone": "+91 98765 43210",
+    "whatsapp": "919876543210",
+    "email": "hello@haloandgrain.example",
+    "address": "No. 21, 2nd Avenue, Besant Nagar, Chennai, Tamil Nadu 600090",
+    "city": "Chennai",
+    "instagram": "https://www.instagram.com/",
+    "youtube": "https://www.youtube.com/",
+    "colorPrimary": "#D9B26A",
+    "colorInk": "#14110E",
+    "font": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+  },
+  "customers": {
+    "sunrise-studio": {
+      "name": "Sunrise Studio",
+      "phone": "+91 90000 11111",
+      "whatsapp": "919000011111",
+      "email": "hello@sunrisestudio.example",
+      "address": "12 Race Course Road, Coimbatore, Tamil Nadu 641018",
+      "city": "Coimbatore",
+      "instagram": "https://www.instagram.com/",
+      "youtube": "https://www.youtube.com/",
+      "colorPrimary": "#E0873C",
+      "colorInk": "#161210",
+      "font": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    },
+    "azure-films": {
+      "name": "Azure Films",
+      "phone": "+91 90000 22222",
+      "whatsapp": "919000022222",
+      "email": "studio@azurefilms.example",
+      "address": "5 Church Street, Bengaluru, Karnataka 560001",
+      "city": "Bengaluru",
+      "instagram": "https://www.instagram.com/",
+      "youtube": "https://www.youtube.com/",
+      "colorPrimary": "#5B8CB0",
+      "colorInk": "#0F1417",
+      "font": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+    }
+  }
+}
